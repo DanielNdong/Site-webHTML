@@ -1,4 +1,4 @@
 # Site-webHTML
 
 
-Una pagina wwb estatica
+Una pagina web estatica
