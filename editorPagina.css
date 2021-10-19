@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgb(13, 71, 73);
+}
+
+.barra-superior a {
+    text-decoration: none;
+    color: #faf4f4;
+    padding: 10px;
+    border-radius: 1px solid rgb(139, 131, 131);
+    transition: all .3s ease;
+    text-align: center;
+}
+
+.barra-superior a:hover {
+    background-color: rgb(11, 65, 71);
+    color: #faf4f4;
+    border-radius: 3px solid rgb(139, 131, 131);
+    transition: all .3 ease;
+}
+
+.menu-desplegable {
+    background: #666666;
+    padding: 10px;
+}
+
+.submenu-desplegable a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 12px;
+    padding: 10px 50px;
+    border-radius: 1px solid rgb(139, 131, 131);
+    transition: all .3s ease;
+    text-align: center;
+}
+
+.submenu-desplegable a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #837d7d;
+}
+
+.submenu {
+    margin: 0px;
+}
+
+.img-encabezado {
+    background-image: url("imagen/bolsas.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.joma-logo {
+    position: absolute;
+    left: 1000px;
+    font-size: 90px;
+    color: #ffffff
+}
+
+.joma-info {
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+
+.joma-info {
+    border-bottom: 2px solid #fff;
+}
+
+.joma-caroussel {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.603);
+    top: 280px;
+    left: 120px;
+}
+
+.joma-caroussel .img-joma-caroussel img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    height: 200px;
+    width: 210px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    height: 1000px;
+}
+
+.barra-izquierda {
+    height: 340px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.barra-derecha1 {
+    height: 250px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.barra-derecha2 {
+    height: 400px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.barra-derecha3 {
+    height: 300px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.pie-pagina {
+    background: #0d3352;
+}
+
+.pie-pagina-contenido {
+    margin-top: 40px;
+    height: 270px;
+    justify-content: center;
+    color: #faf4f4;
+}
+
+.contenido-footer-info {
+    padding-top: 15px;
+    padding-right: 160px;
+}
+
+.contenido-footer-catalogo {
+    padding-top: 15px;
+    padding-right: 190px;
+}
+
+.contenido-footer-contactos {
+    padding-top: 15px;
+}
+
+.redes-sociales {
+    color: #fff;
+    background-color: #133049;
+    padding: 3px;
+}
+
+.d-r {
+    background-color: #0a212e;
+    padding: 20px;
+    color: #fff;
+}
